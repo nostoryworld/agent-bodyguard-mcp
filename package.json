@@ -1,0 +1,23 @@
+{
+  "name": "agent-bodyguard-mcp",
+  "version": "0.1.0",
+  "description": "Agent Bodyguard — 5 onchain safety tools for token traders, as an MCP server and x402 API",
+  "type": "module",
+  "main": "src/plugin.ts",
+  "scripts": {
+    "dev": "tsx src/plugin.ts",
+    "build": "esbuild src/plugin.ts --bundle --platform=node --format=esm --target=node24 --minify --outfile=dist/plugin.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.0.0",
+    "zod": "4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "24.12.2",
+    "esbuild": "0.28.2",
+    "tsx": "4.23.12",
+    "typescript": "5.9.3"
+  },
+  "license": "MIT"
+}
