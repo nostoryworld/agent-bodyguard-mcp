@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2026-07-22/server.schema.json",
+  "name": "io.github.nostoryworld/agent-bodyguard-mcp",
+  "description": "5 token-safety tools for traders: copycat detection, sandwich alerts, exit-liquidity scans, deployer tracing, approval audits.",
+  "repository": {
+    "url": "https://github.com/nostoryworld/agent-bodyguard-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent-bodyguard-mcp.odemakindeezekiel5.workers.dev/mcp"
+    }
+  ],
+  "packages": []
+}
